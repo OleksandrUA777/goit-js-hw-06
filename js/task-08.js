@@ -6,7 +6,6 @@ function formSubmitHandler(event) {
   event.preventDefault();
 
   const formElements = event.currentTarget.elements;
-
   if (formElements[0].value === "" || formElements[1].value === "") {
     alert("Please fill all the fields!!");
   } else {
